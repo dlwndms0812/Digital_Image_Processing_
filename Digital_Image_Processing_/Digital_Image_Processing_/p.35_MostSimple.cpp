@@ -11,7 +11,7 @@ void main()
 	fread(OrgImg, sizeof(char), 256 * 256, infile);
 	fclose(infile);
 
-	//역상게산을 위한 영상처리
+	//역상계산을 위한 영상처리
 	for (i = 0; i < 256; i++)
 	{
 		for (j = 0; j < 256; j++)
